@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+.next/
+out/
+coverage/
+.cache/
+.tmp/
+.vscode/
+.idea/
+
+# React Native
+android/app/build/
+ios/Pods/
+ios/DerivedData/
+*.xcworkspace
+*.xcodeproj
+*.hmap
+*.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+*.log
+
+# Logs
+logs/
+*.log
+*.gz
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Others
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.patch
